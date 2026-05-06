@@ -7,8 +7,7 @@
     },
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "password": "vscode",
-      "webPort": "6080",
-      "vncPort": "5901"
+      "webPort": "6080"
     }
   },
   "customizations": {
@@ -21,8 +20,7 @@
   },
   "postCreateCommand": "bash .devcontainer/setup.sh",
   "remoteEnv": {
-    "DISPLAY": ":1",
-    "ROBOTMK_HEADLESS_HOST": "false"
+    "DISPLAY": ":1"
   },
   "forwardPorts": [6080],
   "portsAttributes": {
