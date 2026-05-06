@@ -1,0 +1,68 @@
+> **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/web-cryptolibrary).**
+> Do not edit files here directly — changes will be overwritten on the next sync.
+> Last sync: [`cae97ef`](https://github.com/elabit/robotmk-starter/commit/cae97ef4cec1eb8289b504610bbf8c1fcaade080)
+
+---# web-cryptolibrary
+
+Example combining [robotframework-browser](https://robotframework-browser.org) (Playwright) with
+[robotframework-crypto](https://github.com/Snooz82/robotframework-crypto).
+Shows how to safely inject an encrypted password into a web login form without ever
+exposing the plaintext in suite files.
+
+## What This Demonstrates
+
+- Browser-based login using Playwright (`rfbrowser`) together with CryptoLibrary
+- The difference between a clear-text password (negative example) and an encrypted password (recommended)
+- Headless / headed switching via the `ROBOTMK_HEADLESS_HOST` environment variable
+- Running a headed browser inside VS Code via the devcontainer noVNC desktop
+
+## Test Cases
+
+| Test Case | Description |
+|---|---|
+| `Login With Clear Text Password` | **Negative example** — logs in with a hardcoded plaintext password. Never do this in production. |
+| `Login With CryptoLibrary` | **Recommended** — decrypts the stored `crypt:…` password at runtime and uses `Fill Secret` |
+
+## Key Files
+
+| File | Purpose |
+|---|---|
+| `suite.robot` | Two test cases on [practicetestautomation.com](https://practicetestautomation.com/practice-test-login/) |
+| `conda.yaml` | Environment (Python `3.12`, Browser `19.14.2`, Crypto `0.3`) |
+| `robot.toml` | Sets `RMKCRYPTPW` (key password) and `ROBOTMK_HEADLESS_HOST` |
+| `keys/private_key.json` | Demo private key for credential decryption |
+| `.devcontainer/devcontainer.json` | Devcontainer with noVNC desktop (port 6080) for headed browser testing |
+
+## Links
+
+- [robotframework-browser](https://robotframework-browser.org)
+- [robotframework-crypto](https://github.com/Snooz82/robotframework-crypto)
+- [Practice Test Automation – Login page](https://practicetestautomation.com/practice-test-login/)
+- [Robotmk documentation](https://robotmk.org)
+- [RCC (Robocorp Command Center)](https://robocorp.com/tools/rcc)
+
+
+## Prerequisites
+
+**RCC**  to create isolated self contained environments. Download from the [Robotmk release page](https://github.com/elabit/robotmk/releases/download/v4.0.0/) or use the provided script (`_dev/scripts/download-rcc.sh` / `download-rcc.ps1`).
+  
+## Libraries & Versions
+
+| Library | Version |
+|---|---|
+| Python | `3.12` |
+| Robot Framework | `7.4` |
+| robotframework-browser | `19.14.2` |
+| robotframework-crypto | `0.3` |
+
+> All versions are pinned in `_dev/config/versions.env` and injected into `conda.yaml` at generation time.
+
+## How to Run
+
+Run with RCC (creates the isolated environment on first run):
+
+```bash
+rcc run
+```
+
+> **In the devcontainer:** RCC is pre-installed. Open the integrated terminal and run `rcc run` directly.
