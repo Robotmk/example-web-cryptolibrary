@@ -19,7 +19,7 @@
       ]
     }
   },
-  "postCreateCommand": "mkdir -p ~/bin && curl -fsSL -o ~/bin/rcc https://github.com/elabit/robotmk/releases/download/v4.0.0/rcc_linux64 && chmod +x ~/bin/rcc && SPACE_ROOT=$(~/bin/rcc holotree vars --robot robot.yaml 2>&1 | grep '^export RCC_HOLOTREE_SPACE_ROOT=' | cut -d= -f2) && ln -sfn \"${SPACE_ROOT}\" ~/.rcc-env && echo \"export PATH=${SPACE_ROOT}/bin:\$PATH\" >> ~/.bashrc && mkdir -p .vscode && printf '{\\n  \"python.defaultInterpreterPath\": \"%s/bin/python\"\\n}\\n' \"${SPACE_ROOT}\" > .vscode/settings.json",
+  "postCreateCommand": "bash .devcontainer/setup.sh",
   "remoteEnv": {
     "DISPLAY": ":1",
     "ROBOTMK_HEADLESS_HOST": "false"
