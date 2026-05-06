@@ -15,9 +15,7 @@
     "vscode": {
       "extensions": [
         "ms-python.python",
-        "d-biehl.robotcode",
-        "GitHub.copilot",
-        "GitHub.copilot-chat"
+        "d-biehl.robotcode"
       ]
     }
   },
