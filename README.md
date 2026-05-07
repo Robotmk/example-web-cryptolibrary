@@ -2,7 +2,7 @@
 
 > **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/web-cryptolibrary).**
 > Do not edit files here directly — changes will be overwritten on the next sync.
-> Last sync: [`afc7c88`](https://github.com/elabit/robotmk-starter/commit/afc7c88664c9582e0ffe0f0beccfda9a5d40e254)
+> Last sync: [`b51eae4`](https://github.com/elabit/robotmk-starter/commit/b51eae445c4c321d6167771d3d60d7345dd1c002)
 
 ---
 # web-cryptolibrary
