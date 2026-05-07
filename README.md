@@ -2,7 +2,7 @@
 
 > **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/web-cryptolibrary).**
 > Do not edit files here directly — changes will be overwritten on the next sync.
-> Last sync: [`a00acad`](https://github.com/elabit/robotmk-starter/commit/a00acad393a87c357bf179190a2ce908eba177ca)
+> Last sync: [`8831cda`](https://github.com/elabit/robotmk-starter/commit/8831cda318b5255ce6dedb9c71b0ce82b41f0cf8)
 
 ---
 # web-cryptolibrary
@@ -78,7 +78,7 @@ rcc task shell
 code . 
 ```
 
-Install the [RobtoCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) extension for VS Code to run the robot with the integrated run/debug tools.  
+Install the [RobotCode](https://marketplace.visualstudio.com/items?itemName=d-biehl.robotcode) extension for VS Code to run the robot with the integrated run/debug tools.  
 **This is the recommended way for the implementation of Robot Framework suites.**
 
 ### In VS Code / Devcontainer
@@ -99,7 +99,7 @@ If you want to learn more, there are several ways of how we can support you:
 - Code Review of existing Tests & Coaching Sessions
 - "Extended Workbench" - We work together on your test automation projects for a defined period of time
 
-Reach out to us via mail at robotmk.org or book a free [clarification call](https://meet.brevo.com/simon-meggle)
+Reach out to us via mail at robotmk.org or book a free [clarification call](https://meet.brevo.com/simon-meggle).
 
 **Simon Meggle**  
 *CEO Elabit GmbH*  
