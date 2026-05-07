@@ -2,7 +2,7 @@
 
 > **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/web-cryptolibrary).**
 > Do not edit files here directly — changes will be overwritten on the next sync.
-> Last sync: [`dcff569`](https://github.com/elabit/robotmk-starter/commit/dcff5690bdb7a77d7203147381656e97a6bfd8e0)
+> Last sync: [`a00acad`](https://github.com/elabit/robotmk-starter/commit/a00acad393a87c357bf179190a2ce908eba177ca)
 
 ---
 # web-cryptolibrary
@@ -99,7 +99,7 @@ If you want to learn more, there are several ways of how we can support you:
 - Code Review of existing Tests & Coaching Sessions
 - "Extended Workbench" - We work together on your test automation projects for a defined period of time
 
-Feel free to reach out to us via mail at robotmk.org!
+Reach out to us via mail at robotmk.org or book a free [clarification call](https://meet.brevo.com/simon-meggle)
 
 **Simon Meggle**  
 *CEO Elabit GmbH*  
