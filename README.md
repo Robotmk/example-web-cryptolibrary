@@ -2,7 +2,7 @@
 
 > **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/web-cryptolibrary).**
 > Do not edit files here directly — changes will be overwritten on the next sync.
-> Last sync: [`9b85cf3`](https://github.com/elabit/robotmk-starter/commit/9b85cf3f1a071c0c30c1a7221f8c6dcb27c78842)
+> Last sync: [`dcff569`](https://github.com/elabit/robotmk-starter/commit/dcff5690bdb7a77d7203147381656e97a6bfd8e0)
 
 ---
 # web-cryptolibrary
@@ -84,5 +84,26 @@ Install the [RobtoCode](https://marketplace.visualstudio.com/items?itemName=d-bi
 ### In VS Code / Devcontainer
 
 Just press the button below. RCC is pre-installed, will create the environment and activate it for VS Code. 
+
+## Closing Notes
+
+Also try the other RF example suites, they all work in the Codespace environment.  
+
+This is only the beginning of the journey, there is a lot more to explore in the world of Robot Framework, Robotmk and Checkmk.  
+
+If you want to learn more, there are several ways of how we can support you:
+
+- [Synthetic Monitoring Trainings](https://lp.robotmk.org/robotmk-masterclass-4d-en)
+- Implementing a **Robotmk POC** in your company
+- Know How Transfer
+- Code Review of existing Tests & Coaching Sessions
+- "Extended Workbench" - We work together on your test automation projects for a defined period of time
+
+Feel free to reach out to us via mail at robotmk.org!
+
+**Simon Meggle**  
+*CEO Elabit GmbH*  
+*Founder of Robotmk*  
+*Product Manager of Synthetic Monitoring at Checkmk*
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1231198671)
