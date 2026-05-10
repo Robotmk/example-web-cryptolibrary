@@ -23,7 +23,8 @@ This is the easiest way to run the example — no local installation needed. Jus
 
 ### Manually with RCC
 
-To run the example manually, refer to the blog post with the step-by-step instructions:   
+To run Robot Framework suites manually, refer to the Robotmk blog post with the step-by-step instructions for RCC:
+   
 → [How to Run Robot Framework Examples with RCC](https://www.robotmk.org/en/blog/rcc-efficient-python-integration/)  
 → [Troubleshooting RCC](https://www.robotmk.org/en/blog/rcctrouble/)
 
@@ -89,6 +90,6 @@ Also try the other [RF example suites](https://github.com/elabit/robotmk-starter
 >
 > **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/web-cryptolibrary).**
 > Do not edit files here directly — changes will be overwritten on the next sync.
-> Last sync: [`b9e1a9b`](https://github.com/elabit/robotmk-starter/commit/b9e1a9b7e550ba75a61a73cde1cc2ff22b33a229)
+> Last sync: [`777f30d`](https://github.com/elabit/robotmk-starter/commit/777f30d036f649977ec4bdf9ba63511bc4010533)
 
 ---
