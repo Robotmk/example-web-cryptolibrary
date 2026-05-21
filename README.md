@@ -90,6 +90,6 @@ Also try the other [RF example suites](https://github.com/elabit/robotmk-starter
 >
 > **This repository is automatically synced from [elabit/robotmk-starter](https://github.com/elabit/robotmk-starter/tree/main/examples/web-cryptolibrary).**
 > Do not edit files here directly — changes will be overwritten on the next sync.
-> Last sync: [`cdad48f`](https://github.com/elabit/robotmk-starter/commit/cdad48f239c808b2f8fe69fed7ec6215d18ebe0e)
+> Last sync: [`edbdd4e`](https://github.com/elabit/robotmk-starter/commit/edbdd4e50dfaf789212dfaf94db540c9e86764a3)
 
 ---
